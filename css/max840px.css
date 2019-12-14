@@ -44,6 +44,7 @@ body
     background-color: #3b3938;
     color: white;
     opacity: 0.8;
+    clear: both;
 }
 
 .container img
@@ -56,12 +57,13 @@ body
 {
   overflow: hidden;
   opacity: 0.8;
-  float: left;
+  margin: auto;
+  clear: both;
   font-size: 0.9em;
   margin-top: 1%;
   padding: 2em;
-  width: 15%;
-  background-color: red;
+  width: 40%;
+  background-color: #090636;
   color: white;
   text-align: center;
   border-radius: 40%;
@@ -71,4 +73,21 @@ body
 .ContRound img
 {
   height: 60%;
+}
+
+.ContRound2
+{
+  overflow: hidden;
+  opacity: 0.8;
+  margin: auto;
+  clear: both;
+  font-size: 0.9em;
+  margin-top: 1%;
+  padding: 2em;
+  width: 40%;
+  background-color: #990000;
+  color: white;
+  text-align: center;
+  border-radius: 40%;
+  height: 15em;
 }

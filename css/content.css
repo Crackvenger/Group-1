@@ -9,14 +9,14 @@ html, body
 }
 
 body{
-    
+
     background-color: beige;
     text-align:justify;
     color: black;
 }
 
 p{
-    margin: 10px 10px 10px;
+    margin: 1% 1% 1%;
     font: sans-serif;
 }
 
@@ -34,16 +34,17 @@ background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(41,230,158,1) 44
 }
 
 div#container{
-    margin: 10px;
+    margin: 2%;
 }
 
 div#wrapper{
     margin: 0 auto;
-    width: 94%;
+    min-width: 20%;
+    max-width: 94%;
     height: 100%;
 }
 
-div#leftcolumn { 
+div#leftcolumn {
  color: #333;
  border: 1px solid #ccc;
  background:#F6F0E0;
@@ -55,7 +56,7 @@ div#leftcolumn {
 }
 
 div#leftcolumn h2{
-   margin:5px; 
+   margin:6%;
     text-align: center;
 }
 
@@ -63,13 +64,13 @@ div#leftcolumn img{
     padding-left: 35px;
 }
 
-div#rightcolumn { 
+div#rightcolumn {
  float: right;
  color: #333;
  border: 1px solid #ccc;
  background:#cfcdf0;
- margin: 5px 0px 0px 0px;
- padding: 10px;
+ margin: 3% 0px 0px 0px;
+ padding: 2%;
  height: 25em;
  width: 70em;
  display: inline;

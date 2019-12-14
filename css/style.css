@@ -13,11 +13,7 @@ html
   background-size: cover;
 }
 
-body
-{
 
-
-}
 
 #header
 {
@@ -58,17 +54,34 @@ body
   opacity: 0.8;
   float: left;
   font-size: 0.9em;
-  margin-top: 1%;
+  margin: 1%;
   padding: 2em;
   width: 15%;
   background-color: #090636;
   color: white;
   text-align: center;
   border-radius: 40%;
-  height: 15em;
+  height: 20em;
 }
 
 .ContRound img
 {
   height: 60%;
+}
+
+.ContRound2
+{
+  overflow: hidden;
+  opacity: 0.8;
+  float: right;
+  font-size: 0.9em;
+  margin: 1%;
+  padding: 2em;
+  width: 15%;
+  background-color: #990000;
+  color: white;
+  text-align: center;
+  border-radius: 40%;
+  height: 20em;
+  line-height: 3em;
 }
