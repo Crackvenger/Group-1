@@ -41,3 +41,11 @@ div#content
     background: #E0FFFF; /* give color for background */
 
 }
+
+div#footer
+{
+    clear: left;/* it will be according to how many div in the top this footer id */
+    width:100%; /* footer id width will be 100% according to layer */
+    padding: 5px 0px;
+    background-color: cyan;
+}
