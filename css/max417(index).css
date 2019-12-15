@@ -11,12 +11,18 @@ html
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin: 0;
 }
 
-body
+button
 {
+  width: 1em;
+  height: 1em;
+}
 
-
+button p
+{
+  font-size: 0.2em;
 }
 
 #header
@@ -38,8 +44,9 @@ body
 
 .container
 {
-    margin: 3% auto auto auto;
+    margin: -6em auto auto auto;
     width: 50%;
+    font-size: 0.5em;
     text-align: center;
     background-color: #3b3938;
     color: white;
@@ -59,20 +66,25 @@ body
   opacity: 0.8;
   margin: auto;
   clear: both;
-  font-size: 0.9em;
-  margin-top: 1%;
-  padding: 2em;
-  width: 40%;
+  font-size: 0.5em;
+  margin-top: 8%;
+  padding: 2em 5em 13em 5em;
+  width: 17%;
   background-color: #090636;
   color: white;
   text-align: center;
-  border-radius: 40%;
-  height: 15em;
+  border-radius: 70%;
+  height: 7em;
+}
+
+.ContRound h1
+{
+  font-size: 0.5em;
 }
 
 .ContRound img
 {
-  height: 60%;
+  height: 70%;
 }
 
 .ContRound2
@@ -81,15 +93,17 @@ body
   opacity: 0.8;
   margin: auto;
   clear: both;
-  font-size: 0.9em;
+  font-size: 0.3em;
   margin-top: 1%;
   padding: 2em;
-  width: 40%;
+  width: 30%;
   background-color: #990000;
   color: white;
   text-align: center;
   border-radius: 40%;
-  height: 15em;
+  height: 8em;
+  position: relative;
+  top: 45em;
 }
 
 .ContRound3
@@ -97,15 +111,18 @@ body
   overflow: hidden;
   opacity: 0.8;
   float: left;
-  font-size: 0.9em;
-  margin: 1%;
+  display: inline-block;
+  font-size: 0.3em;
+  margin: 1% 1% 70% 1%;
   padding: 2em;
   width: 15%;
   background-color: #ffd608;
   color: white;
   text-align: center;
-  border-radius: 40%;
-  height: 20em;
+  border-radius: 10%;
+  height: 16em;
+  position: relative;
+  bottom: 80em;
 }
 
 .ContRound4
@@ -113,14 +130,17 @@ body
   overflow: hidden;
   opacity: 0.8;
   float: right;
-  font-size: 0.9em;
-  margin: 1%;
+  display: inline-block;
+  font-size: 0.3em;
+  margin: 1% 1% 70% 1%;
   padding: 2em;
   width: 15%;
   background-color: #89eb13;
   color: white;
   text-align: center;
-  border-radius: 40%;
-  height: 20em;
+  border-radius: 10%;
+  height: 16em;
   line-height: 3em;
+  position: relative;
+  bottom: 80em;
 }
