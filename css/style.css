@@ -36,6 +36,7 @@ html
 {
     margin: 3% auto auto auto;
     width: 50%;
+    padding: 0;
     text-align: center;
     background-color: #3b3938;
     color: white;
@@ -46,6 +47,7 @@ html
 {
   min-width: 20%;
   max-width: 100%;
+  padding: 0;
 }
 
 .ContRound
