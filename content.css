@@ -1,0 +1,51 @@
+html,body
+{
+    margin:0; /* margin will become like default mode */
+    padding:0 /* padding will become like default mode */
+}
+body
+{
+    font: 76% arial,sans-serif; /* this is setting for font in the body, if arial can't use so the sans-serif will be use for this html */
+}
+
+div#header
+{
+    color: white; /* silver color */
+    background: rgb(34,193,195); /* this make header background rbg */
+    background: linear-gradient(0deg, rgba(34,193,195,1) 33%, rgba(254,254,254,1) 100%); /* this make header background liner gradient rbg */
+}
+
+div#header h1
+{
+    font-size: 47px;
+    font-family: monospace;
+    height:100px;
+    line-height:100px;
+    margin:0;
+}
+p{
+    
+    margin: 0 20px 10px;
+}
+
+div#container
+{
+    width:900px; /* container id width will be 900px */
+    margin:auto; /* margin will be 0 */
+}
+
+div#content
+{
+    float: left; /* will make navigation position go to the left */
+    width:900px; /* content id width will be 900px */
+    background: #E0FFFF; /* give color for background */
+
+}
+
+div#footer
+{
+    clear: left;/* it will be according to how many div in the top this footer id */
+    width:100%; /* footer id width will be 100% according to layer */
+    padding: 5px 0px;
+    background-color: cyan;
+}
