@@ -8,7 +8,7 @@ html, body
 }
 
 body{
-    background: url(5cm.jpg);
+    background: url("../img/5cm.jpg");
     text-align: center;
     color: black;
 }
@@ -63,7 +63,7 @@ div#wrapper{
     height: 97%;
 }
 
-div#leftcolumn { 
+div#leftcolumn {
  color: #333;
  border: 1px solid #ccc;
  background:#F6F0E0;
@@ -75,7 +75,7 @@ div#leftcolumn {
 }
 
 div#leftcolumn h2{
-   margin:5px; 
+   margin:5px;
     text-align: center;
 }
 
@@ -83,7 +83,7 @@ div#leftcolumn img{
     padding: 5%;
 }
 
-div#rightcolumn { 
+div#rightcolumn {
  color: #333;
  border: 3% solid #ccc;
  background:#cfcdf0;

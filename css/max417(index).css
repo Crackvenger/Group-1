@@ -2,6 +2,7 @@
 {
   margin: 0%;
   padding: 0%;
+  font-family: 'Lilita One', cursive;
 }
 
 html
@@ -147,7 +148,8 @@ button p
 
 .footer
 {
-  margin-top: 100%;
+  margin: 0;
+  clear: both;
   width: 100%;
   height: 7em;
   color: white;
