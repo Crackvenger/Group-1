@@ -34,9 +34,10 @@ html
 
 .container
 {
-    margin: 3% auto auto auto;
+    margin: 0.2em auto auto auto;
     width: 50%;
     padding: 0;
+    clear: both;
     text-align: center;
     background-color: #3b3938;
     color: white;
@@ -68,7 +69,7 @@ html
 
 .ContRound img
 {
-  height: 60%;
+  height: 40%;
 }
 
 .ContRound2
