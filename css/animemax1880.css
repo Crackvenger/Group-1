@@ -5,7 +5,7 @@ body
 margin:0;
 padding:0;
 font-family: monospace;
-background: url(2019.jpg) no-repeat center center fixed;
+background: url("../img/2019.jpg") no-repeat center center fixed;
 background-size:cover;
 font-size: 110%
 }
@@ -103,7 +103,7 @@ a:hover
     margin-left: 1%;
     margin-right: 1%;
 	border: 3px solid;
-    
+
 }
 h2
 {
