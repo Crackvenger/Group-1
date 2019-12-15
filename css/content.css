@@ -78,18 +78,17 @@ div#leftcolumn {
  background:#F6F0E0;
  margin: 5px;
  padding-top: 10px;
- height: 54em;
+ height: 55em;
  width: 23em;
  float: left;
 }
 
-div#leftcolumn h2{
-   margin:5px; 
+div#leftcolumn h2{ 
     text-align: center;
 }
 
 div#leftcolumn img{
-    padding-left: 35px;
+    position: relative;
 }
 
 div#rightcolumn { 
